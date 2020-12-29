@@ -14,7 +14,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet"> 
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-    <title>Hello World</title>
+    <!-- Typed.js -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+    <title>MOIN!</title>
 </head>
 <body>
     <main class="valign-wrapper">
@@ -29,7 +31,7 @@
                         <img class="flag tooltipped" data-position="top" data-tooltip="November" src="/src/November.svg" alt="November">
                     </div>
                     <h2>I'm <b>Patrick Specht</b>,</h2>
-                    <h1>Expert in Data and Maritime Logistics</h1>
+                    <h1>Expert in <span class="element"></span></h1>
                     
                     <div class="contact-section">
                         <a href="https://www.linkedin.com/in/patrick-specht-1990/" target="_blank"><img class="sm-icon" src="/src/linkedin.svg" alt="linkedin"></a>
@@ -41,9 +43,7 @@
                 </div>
                
             </div>
-        </div>
-        
-     
+        </div>   
    
     </main>
     <footer>
@@ -60,6 +60,15 @@
         var elems = document.querySelectorAll('.tooltipped');
         var instances = M.Tooltip.init(elems, {});
     });    
+    var typed = new Typed('.element', {
+        strings: ['Maritime Logistics', 'Data Analysis', 'UX Design'],
+        smartBackspace: true, // Default value
+        typeSpeed: 40,
+        backSpeed: 20,
+        backDelay: 1400,
+        loop: true,
+        loopCount: Infinity,
+    });
 </script>
 
 </html>
