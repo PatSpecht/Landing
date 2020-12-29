@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   width="0.99659717cm"
+   height="1.005417cm"
+   viewBox="0 0 9.9659712 10.05417"
+   version="1.1"
+   id="svg8">
+  <defs
+     id="defs2">
+    <pattern
+       id="EMFhbasepattern"
+       patternUnits="userSpaceOnUse"
+       width="6"
+       height="6"
+       x="0"
+       y="0" />
+    <pattern
+       id="EMFhbasepattern-7"
+       patternUnits="userSpaceOnUse"
+       width="6"
+       height="6"
+       x="0"
+       y="0" />
+    <pattern
+       id="EMFhbasepattern-1"
+       patternUnits="userSpaceOnUse"
+       width="6"
+       height="6"
+       x="0"
+       y="0" />
+    <pattern
+       id="EMFhbasepattern-5"
+       patternUnits="userSpaceOnUse"
+       width="6"
+       height="6"
+       x="0"
+       y="0" />
+    <pattern
+       id="EMFhbasepattern-6"
+       patternUnits="userSpaceOnUse"
+       width="6"
+       height="6"
+       x="0"
+       y="0" />
+    <pattern
+       id="EMFhbasepattern-4"
+       patternUnits="userSpaceOnUse"
+       width="6"
+       height="6"
+       x="0"
+       y="0" />
+    <pattern
+       id="EMFhbasepattern-2"
+       patternUnits="userSpaceOnUse"
+       width="6"
+       height="6"
+       x="0"
+       y="0" />
+    <pattern
+       id="EMFhbasepattern-9"
+       patternUnits="userSpaceOnUse"
+       width="6"
+       height="6"
+       x="0"
+       y="0" />
+  </defs>
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1"
+     transform="translate(-12.980415,-249.27369)">
+    <path
+       style="fill:#fca311;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.264583"
+       d="m 17.919304,249.27369 c -2.734028,0 -4.938889,2.29306 -4.938889,5.02708 0,2.73403 2.204861,5.02709 4.938889,5.02709 2.822222,0 5.027083,-2.29306 5.027083,-5.02709 0,-2.73402 -2.204861,-5.02708 -5.027083,-5.02708 z m 0,7.49653 c -1.322917,0 -2.469445,-1.05834 -2.469445,-2.46945 0,-1.41111 1.146528,-2.46944 2.469445,-2.46944 1.411111,0 2.557639,1.05833 2.557639,2.46944 0,1.41111 -1.146528,2.46945 -2.557639,2.46945 z"
+       id="path202" />
+    <path
+       style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.264583"
+       d="m 17.919304,251.83133 c -1.322917,0 -2.469445,1.05833 -2.469445,2.46944 0,1.41111 1.146528,2.46945 2.469445,2.46945 1.411111,0 2.557639,-1.05834 2.557639,-2.46945 0,-1.41111 -1.146528,-2.46944 -2.557639,-2.46944 z"
+       id="path204" />
+  </g>
+</svg>

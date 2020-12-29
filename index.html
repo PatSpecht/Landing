@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/custom.css">
+    <!-- Material Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Webfonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet"> 
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <title>Hello World</title>
+</head>
+<body>
+    <main class="valign-wrapper">
+        <div class="row">
+            <div class="col m12">
+                <div class="hero center-align">
+            
+                    <div class="flag-greeting">
+                        <img class="flag tooltipped" data-position="top" data-tooltip="Mike" src="/src/Mike.svg" alt="Mike">
+                        <img class="flag tooltipped" data-position="top" data-tooltip="Oscar" src="/src/Oscar.svg" alt="Oscar">
+                        <img class="flag tooltipped" data-position="top" data-tooltip="India" src="/src/India.svg" alt="India">
+                        <img class="flag tooltipped" data-position="top" data-tooltip="November" src="/src/November.svg" alt="November">
+                    </div>
+                    <h2>I'm <b>Patrick Specht</b>,</h2>
+                    <h1>Expert in Data and Maritime Logistics</h1>
+                    
+                    <div class="contact-section">
+                        <a href="https://www.linkedin.com/in/patrick-specht-1990/" target="_blank"><img class="sm-icon" src="/src/linkedin.svg" alt="linkedin"></a>
+                        <a href="https://www.xing.com/profile/Patrick_Specht/" target="_blank"><img class="sm-icon" src="/src/xing.svg" alt="xing"></a>
+                        <a href="https://www.researchgate.net/profile/Patrick_Specht" target="_blank"><img class="sm-icon" src="/src/researchgate.svg" alt="researchgate"></a>
+                        <a href="mailto:patspecht@outlook.com"><img class="sm-icon" src="/src/email.svg" alt="email"></a>
+                    </div>
+                
+                </div>
+               
+            </div>
+        </div>
+        
+     
+   
+    </main>
+    <footer>
+        <div class="footer-copyright">
+            <div class="container center-align">
+                <p>© 2021</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        var elems = document.querySelectorAll('.tooltipped');
+        var instances = M.Tooltip.init(elems, {});
+    });    
+</script>
+
+</html>
