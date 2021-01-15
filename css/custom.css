@@ -36,3 +36,15 @@ main {
 .sm-icon:hover{
     opacity: 0.8;
 }
+
+.element{
+    color: #003049;
+}
+
+
+@media (min-width: 550px) {
+    br {
+      display: none;
+    }
+  }
+  
