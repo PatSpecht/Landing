@@ -13,7 +13,7 @@ main {
   }
 
 .hero h1{
-    font-size: 2.5em;
+    font-size: 2.0em;
     font-weight:500;
     margin: 1rem 1rem 1.5rem 1rem;
 }
@@ -45,6 +45,12 @@ main {
 @media (min-width: 640px) {
     br {
       display: none;
+    }
+
+    .hero h1{
+
+        font-size: 2.5em;
+
     }
   }
   
