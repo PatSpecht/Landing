@@ -42,7 +42,7 @@ main {
 }
 
 
-@media (min-width: 550px) {
+@media (min-width: 640px) {
     br {
       display: none;
     }
